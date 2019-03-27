@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">My App</mat-toolbar>
+<!-- <pre><code>{{ test | json }}</code></pre> -->
+<pre><code>{{ devices | json }}</code></pre>
+<!-- <pre><code>{{ orientation | json }}</code></pre> -->
+<button mat-button (click)="openCamera()">OPEN CAMERA</button>
+<div>
+  <img *ngFor="let picURL of pics" [src]="picURL" />
+</div>

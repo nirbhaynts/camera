@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body, .full-panel {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
